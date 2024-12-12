@@ -8,7 +8,7 @@
 const searchInput = document.querySelector("#searchbar > input")
 const searchButton = document.querySelector("#searchbar > button")
 
-const lookup = {"/":"/","deepl":"https://deepl.com/","reddit":"https://reddit.com/","maps":"https://maps.google.com/"}
+const lookup = {"/":"/","gpt":"https://chatgpt.com/","reddit":"https://reddit.com/","maps":"https://maps.google.com/"}
 const engine = "google"
 const engineUrls = {
   deepl: "https://www.deepl.com/translator#-/-/{query}",
